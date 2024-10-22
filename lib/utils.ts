@@ -14,6 +14,7 @@ export const projects = [
   { name: 'TRAVEL', tools: ['Svelte', 'CSS', 'JS'], link: 'https://codelamp168.github.io/travelsite/' },
   { name: 'NEWS Flexbox', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/News-Homepage-Front-End-Mentor-CHALLENGE/' },
   { name: 'Verve Elegance', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/Verve-Elegence-Promo-Page/' },
+
 ]
 
 export const socialLinks = [
