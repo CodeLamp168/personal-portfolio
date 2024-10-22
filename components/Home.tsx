@@ -18,8 +18,8 @@ const SkillDisplay = ({ icon, name }: { icon: string; name: string }) => (
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-start mt-4 sm:mt-0 border border-theme relative gap-4 md:gap-0 overflow-x-hidden">
-      <div className="border-theme py-4 text-left w-full max-w-xs md:max-w-xl pl-4">
+    <div className="min-h-screen flex flex-col items-start mt-4 sm:mt-0 relative gap-4 md:gap-0 overflow-x-hidden">
+      <div className=" py-4 text-left w-full max-w-xs md:max-w-xl pl-4">
         <h1 className="text-7xl md:text-8xl font-semibold tracking-wider">CALEB SIM</h1>
         <p className="text-3xl pt-2 font-medium tracking-wider">Junior Front End Developer</p>
         <ul className="flex w-full flex-wrap mt-6 md:gap-2">

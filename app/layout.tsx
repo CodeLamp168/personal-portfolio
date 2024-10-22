@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex flex-col md:flex-row md:mx-2 overflow-hidden">
           <NavArea />
-          <main className="border-r md:m-2 relative w-full">
+          <main className=" md:m-2 relative w-full">
             {children}
           </main>
         </div>

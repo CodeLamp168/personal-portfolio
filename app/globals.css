@@ -49,13 +49,11 @@ body {
     --radius: 0.5rem;
   }
 
-  [data-theme="dark"] {
+   .dark {
     --theme-background: #000000;
     --theme-background-secondary: #292929;
     --theme-text: #ffffff;
     --theme-border: #ffffff;
-  }
-  .dark {
     --theme-icon: invert(100%);
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
