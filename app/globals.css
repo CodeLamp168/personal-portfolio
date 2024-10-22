@@ -12,18 +12,10 @@ body {
   }
 }
 
-
-
 @layer base {
   :root {
-    --theme-background: #fdddbd;
-    --theme-text: #000000;
-    --theme-border: #000000;
-    --theme-icon: invert(0%);
-    --theme-background-secondary: #ffffff;
-
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --background: 39 80% 93%;
+    --foreground: 0 0% 0%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
@@ -38,7 +30,7 @@ body {
     --accent-foreground: 0 0% 9%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
+    --border: 0 0% 0%;
     --input: 0 0% 89.8%;
     --ring: 0 0% 3.9%;
     --chart-1: 12 76% 61%;
@@ -49,14 +41,9 @@ body {
     --radius: 0.5rem;
   }
 
-   .dark {
-    --theme-background: #000000;
-    --theme-background-secondary: #292929;
-    --theme-text: #ffffff;
-    --theme-border: #ffffff;
-    --theme-icon: invert(100%);
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;
     --popover: 0 0% 3.9%;
@@ -71,7 +58,7 @@ body {
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
+    --border: 0 0% 100%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
     --chart-1: 220 70% 50%;
@@ -83,14 +70,16 @@ body {
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
     @apply bg-background text-foreground;
   }
 }
 
+@layer components {
+  .svg-icon {
+    @apply fill-foreground transition-colors duration-200;
+  }
+}
 
 @layer components {
   .nav-item {

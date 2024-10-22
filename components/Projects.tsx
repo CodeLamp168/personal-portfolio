@@ -1,16 +1,9 @@
-
 // app/components/Projects.tsx
 import PageHeader from './PageHeader'
+import { projects } from '@/lib/utils';
 
-const projects = [
-  { name: 'Watch Catalogue', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/Watch-Catalogue-Webpage/' },
-  { name: 'Pokedex Next', tools: ['NextJS', 'Tailwind'], link: 'https://pokedex-next-two-sigma.vercel.app/' },
-  { name: 'Space Program Tourism', tools: ['React', 'SCSS'], link: 'https://codelamp168.github.io/Space-Tourism-Site/' },
-  { name: 'LOOP Studios', tools: ['React', 'Tailwind'], link: 'https://codelamp168.github.io/Loop-Studios-Landing-Page-Tailwind-React/' },
-  { name: 'TRAVEL', tools: ['Svelte', 'CSS', 'JS'], link: 'https://codelamp168.github.io/travelsite/' },
-  { name: 'NEWS Flexbox', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/News-Homepage-Front-End-Mentor-CHALLENGE/' },
-  { name: 'Verve Elegance', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/Verve-Elegence-Promo-Page/' },
-]
+
+
 
 const ProjectItem = ({ tools, name, link }: { tools: string[]; name: string; link: string }) => (
   <div className="flex flex-col lg:flex-row items-start lg:items-end min-w-full md:w-auto border-b border-theme">
