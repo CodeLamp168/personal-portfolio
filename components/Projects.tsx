@@ -22,7 +22,7 @@ export default function Projects() {
   return (
     <div className="min-h-screen flex flex-col items-center md:block p-0 sm:p-4 relative z-0 overflow-x-hidden">
       <PageHeader pageTitle="PROJECTS" />
-      <div className="max-w-max md:absolute md:right-0 md:pt-16 h-4/5 relative overflow-y-scroll lg:pr-1">
+      <div className="max-w-max md:absolute md:right-0 md:pt-16 h-4/5 relative lg:pr-1">
         <ul className="text-right flex flex-col gap-6">
           {projects.map((project) => (
             <ProjectItem key={project.name} {...project} />

@@ -74,13 +74,6 @@ body {
     @apply bg-background text-foreground;
   }
 }
-
-@layer components {
-  .svg-icon {
-    @apply fill-foreground transition-colors duration-200;
-  }
-}
-
 @layer components {
   .nav-item {
     @apply max-w-max transition-transform md:-rotate-90 cursor-pointer;
@@ -92,6 +85,10 @@ body {
 
   .contact-logo {
     @apply w-8 h-8;
+  }
+
+  .svg-icon {
+    @apply fill-foreground transition-colors duration-200;
   }
 }
 

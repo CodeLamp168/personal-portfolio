@@ -15,3 +15,10 @@ export const projects = [
   { name: 'NEWS Flexbox', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/News-Homepage-Front-End-Mentor-CHALLENGE/' },
   { name: 'Verve Elegance', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/Verve-Elegence-Promo-Page/' },
 ]
+
+export const socialLinks = [
+  { name: 'Github', href: 'https://github.com/CodeLamp168', icon: '/svgs/github.svg' },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/calebsimdev/', icon: '/svgs/linkedin.svg' },
+  { name: 'Gmail', href: 'https://mail.google.com/mail/?view=cm&source=mailto&to=dylansim168@gmail.com&body=This%20is%20mail%20body&su=Hello%20Caleb%20', icon: '/svgs/gmail.svg' },
+  { name: 'Discord', href: '#', icon: '/svgs/discord.svg' },
+]
