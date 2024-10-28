@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 
 export const projects = [
-  { name: 'Watch Catalogue', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/Watch-Catalogue-Webpage/' },
+  { name: 'Watch Catalogue', tools: ['HTML', 'CSS', 'JS', 'NodeJs'], link: 'https://watch-catalogue.vercel.app/' },
   { name: 'Pokedex Next', tools: ['NextJS', 'Tailwind'], link: 'https://pokedex-next-two-sigma.vercel.app/' },
   { name: 'Space Program Tourism', tools: ['React', 'SCSS'], link: 'https://codelamp168.github.io/Space-Tourism-Site/' },
   { name: 'LOOP Studios', tools: ['React', 'Tailwind'], link: 'https://codelamp168.github.io/Loop-Studios-Landing-Page-Tailwind-React/' },
