@@ -23,7 +23,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col md:flex-row md:mx-2 overflow-hidden">
             <NavArea />
-            <main className="border-r md:m-4 relative w-full border-black ">
+            <main className="border-r border-border md:m-4 relative w-full border-black ">
               {children}
             </main>
           </div>

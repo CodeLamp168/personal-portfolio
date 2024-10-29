@@ -14,7 +14,7 @@ const navItems = [
 export default function NavArea() {
   return (
     <nav className="font-semibold md:h-screen md:relative md:flex md:flex-col md:justify-between items-center">
-      <div className="flex md:flex-col justify-center items-center md:justify-around gap-8 md:gap-20 py-4 md:py-20 md:border-r border-black">
+      <div className="flex md:flex-col justify-center items-center md:justify-around gap-8 md:gap-20 py-4 md:py-20 md:border-r border-border">
         {navItems.map((item) => (
           <Link key={item.href} href={item.href} className="nav-item tracking-wide">
             {item.name}
