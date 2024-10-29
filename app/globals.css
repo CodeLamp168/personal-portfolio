@@ -74,6 +74,10 @@ body {
     @apply bg-background text-foreground;
   }
 }
+/* globals.css */
+
+/* ... your existing styles ... */
+
 @layer components {
   .nav-item {
     @apply max-w-max transition-transform md:-rotate-90 cursor-pointer;
@@ -88,7 +92,21 @@ body {
   }
 
   .svg-icon {
-    @apply fill-foreground transition-colors duration-200;
+    @apply transition-colors duration-200;
+  }
+
+  /* New styles for theme-based SVG coloring */
+  .theme-icon-wrapper {
+    @apply relative;
+  }
+
+  .theme-icon-wrapper .svg-icon {
+    @apply text-foreground;
+    filter: brightness(0) saturate(100%);
+  }
+
+  .dark .theme-icon-wrapper .svg-icon {
+    filter: brightness(0) saturate(100%) invert(1);
   }
 }
 

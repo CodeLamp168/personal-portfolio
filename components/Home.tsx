@@ -10,8 +10,8 @@ const skills = [
 ]
 
 const SkillDisplay = ({ icon, name }: { icon: string; name: string }) => (
-  <div className="w-14 flex flex-col items-center">
-    <Image src={icon} alt={name} className="language-logo" width={32} height={32} />
+  <div className="w-14 flex flex-col items-center theme-icon-wrapper">
+    <Image src={icon} alt={name} className="language-logo svg-icon" width={32} height={32} />
     <small className="mt-2">{name}</small>
   </div>
 )

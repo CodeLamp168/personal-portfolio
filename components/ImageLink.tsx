@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const ImageLink = ({ href, icon, name, size = 'w-6 h-6' }: { href: string; icon: string; name: string; size?: string }) => (
   <a href={href} className="contact-item">
-    <div className={`${size} relative`}>
+    <div className={`${size} relative theme-icon-wrapper`}>
       <Image src={icon} alt={name} className="svg-icon" layout="fill" objectFit="contain" />
     </div>
   </a>
