@@ -1,6 +1,8 @@
 // app/components/Home.tsx
 import Image from 'next/image'
 
+
+
 const skills = [
   { name: 'HTML', icon: '/svgs/html5.svg' },
   { name: 'CSS', icon: '/svgs/css3.svg' },
