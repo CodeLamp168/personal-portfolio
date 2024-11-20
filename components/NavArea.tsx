@@ -7,8 +7,7 @@ import { NavLinks } from './ImageLink'
 
 const navItems = [
   { href: '/', name: 'Home' },
-  { href: '/projects', name: 'Projects' },
-  { href: '/about', name: 'About' },
+  { href: '/projects', name: 'Projects' }
 ]
 
 export default function NavArea() {
