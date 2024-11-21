@@ -1,13 +1,21 @@
 // app/components/ImageLink.tsx
+'use client'
+
 import { socialLinks } from '@/lib/utils';
 import Image from 'next/image'
-
+import { motion } from 'framer-motion'
 
 const ImageLink = ({ href, icon, name, size = 'w-6 h-6' }: { href: string; icon: string; name: string; size?: string }) => (
   <a href={href} className="contact-item">
-    <div className={`${size} relative theme-icon-wrapper`}>
+    <motion.div className={`${size} relative theme-icon-wrapper`}
+    whileHover={{
+      scale: 1.2,
+      transition: { duration: 0.3 },
+    }}
+    whileTap={{ scale: 0.3 }}
+    >
       <Image src={icon} alt={name} className="svg-icon" layout="fill" objectFit="contain" />
-    </div>
+    </motion.div>
   </a>
 )
 

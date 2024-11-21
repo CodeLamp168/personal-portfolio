@@ -4,6 +4,7 @@
 import Link from 'next/link'
 import { ThemeToggle } from './ThemeToggle'
 import { NavLinks } from './ImageLink'
+import { motion } from 'framer-motion'
 
 const navItems = [
   { href: '/', name: 'Home' },
