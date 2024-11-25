@@ -21,9 +21,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} overflow-hidden`} >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="flex flex-col md:flex-row md:mx-2 overflow-hidden">
+          <div className="flex flex-col justify-center md:flex-row md:mx-2 overflow-hidden md:w-7xl">
             <NavArea />
-            <main className="border-r border-border md:m-4 relative w-full">
+            <main className="border-r border-border md:m-4 relative md:w-[1320px]">
               {children}
             </main>
           </div>
