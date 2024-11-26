@@ -2,7 +2,7 @@
 "use client"
 
 import { useRef } from 'react'
-import  PageHeader from './PageHeader'
+
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { projects } from '@/lib/utils'
 import { motion } from 'framer-motion'
