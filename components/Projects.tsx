@@ -66,8 +66,9 @@ export default function Projects() {
         </motion.p>
 
       </motion.div>
+      {/* every new project = +2 to rem (no not an inside joke) (*/}
       <motion.div 
-        className="w-full max-w-2xl md:absolute md:right-0 md:pt-16 h-[calc(100vh-14rem)] relative"
+        className="w-full max-w-2xl md:absolute md:right-0 md:pt-16 h-[calc(100vh-16rem)] relative" 
         initial={{ x: "100%" }}
         animate={{ x: 0 }}
         transition={{ duration: 0.2, delay: 0.2 }}
