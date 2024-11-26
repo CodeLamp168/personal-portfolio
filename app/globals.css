@@ -80,7 +80,7 @@ body {
 
 @layer components {
   .nav-item {
-    @apply max-w-max transition-transform md:-rotate-90 cursor-pointer;
+    @apply max-w-max transition-all duration-300 ease-in-out md:-rotate-90 cursor-pointer hover:scale-110;
   }
 
   .language-logo {
