@@ -24,12 +24,12 @@ const itemVariants = {
 
 const ProjectItem = ({ tools, name, link }: { tools: string[]; name: string; link: string }) => (
   <div className="flex flex-col items-start  w-full border-b border-border pb-6 mb-6">
-    <ul className="flex flex-wrap gap-2 px-2 font-semibold mb-2 lg:mb-2 lg:mr-4">
+    <ul className="flex flex-wrap gap-2 px-2 font-medium uppercase tracking-wider mb-2 lg:mb-2 lg:mr-4">
       {tools.map((tool) => (
         <li key={tool} className="text-sm bg-primary text-primary-foreground px-2 py-1 rounded min-w-16">{tool}</li>
       ))}
     </ul>
-    <a href={link} className="project-name px-2 text-left text-4xl lg:text-5xl font-semibold cursor-pointer transition-transform duration-700 hover:scale-105 relative">
+    <a href={link} className="project-name px-2 text-left text-4xl lg:text-5xl font-light cursor-pointer transition-transform duration-700 hover:scale-105 relative">
       {name}
     </a>
   </div>
@@ -52,7 +52,7 @@ export default function Projects() {
         variants={containerVariants}
       >
         <motion.h1 
-          className="text-7xl md:text-8xl font-semibold tracking-wider"
+          className="text-7xl md:text-8xl font-medium tracking-wider uppercase"
           variants={itemVariants}
         >
           Projects
@@ -68,7 +68,7 @@ export default function Projects() {
       </motion.div>
       {/* every new project = +2 to rem (no not an inside joke) (*/}
       <motion.div 
-        className="w-full max-w-2xl md:absolute md:right-0 md:pt-16 h-[calc(100vh-16rem)] relative" 
+        className="w-full max-w-2xl md:absolute md:right-0 md:pt-16 h-[calc(100vh-18rem)] relative" 
         initial={{ x: "100%" }}
         animate={{ x: 0 }}
         transition={{ duration: 0.2, delay: 0.2 }}

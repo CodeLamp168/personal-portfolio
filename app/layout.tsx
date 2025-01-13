@@ -1,11 +1,18 @@
 // app/layout.tsx
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import './globals.css'
 import NavArea from '@/components/NavArea'
 import { ThemeProvider } from '@/components/ThemeProvider'
 
 const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  weight: ['400', '500'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Caleb Sim Portfolio',
@@ -19,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} overflow-hidden`} >
+      <body className={`${roboto.className} overflow-hidden`} >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col justify-center md:flex-row md:mx-2 overflow-hidden md:w-7xl">
             <NavArea />

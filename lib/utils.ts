@@ -10,12 +10,16 @@ export const projects = [
   { name: 'Watch Catalogue', tools: ['HTML', 'CSS', 'JS', 'NodeJs'], link: 'https://watch-catalogue.vercel.app/' },
   { name: 'Pokedex Next', tools: ['NextJS', 'Tailwind'], link: 'https://pokedex-next-two-sigma.vercel.app/' },
   { name: 'Space Program Tourism', tools: ['React', 'SCSS'], link: 'https://codelamp168.github.io/Space-Tourism-Site/' },
+  { name: 'Liquor Shop', tools: ['NEXTJS' , 'Tailwind'], link: 'https://liquor-shop-five.vercel.app/' },
   { name: 'Business Website', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/Business-Single-Page/' },
   { name: 'LOOP Studios', tools: ['React', 'Tailwind'], link: 'https://codelamp168.github.io/Loop-Studios-Landing-Page-Tailwind-React/' },
   { name: 'NEWS Flexbox', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/News-Homepage-Front-End-Mentor-CHALLENGE/' },
   { name: 'Verve Elegance', tools: ['HTML', 'CSS', 'JS'], link: 'https://codelamp168.github.io/Verve-Elegence-Promo-Page/' },
 
+
 ]
+
+
 
 export const socialLinks = [
   { name: 'Github', href: 'https://github.com/CodeLamp168', icon: '/svgs/github.svg' },
