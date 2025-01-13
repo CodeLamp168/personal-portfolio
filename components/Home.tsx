@@ -48,13 +48,13 @@ export default function Home() {
         variants={containerVariants}
       >
         <motion.h1 
-          className="text-7xl md:text-8xl font-semibold tracking-wider"
+          className="text-7xl md:text-8xl font-medium tracking-wider uppercase"
           variants={itemVariants}
         >
           CALEB SIM
         </motion.h1>
         <motion.p 
-          className="text-3xl pt-2 font-medium tracking-wider"
+          className="text-3xl pt-2 font-light tracking-wider"
           variants={itemVariants}
         >
           Junior Front End Developer
@@ -74,7 +74,7 @@ export default function Home() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.5 }}
       >
-        <p className="font-medium text-left leading-relaxed">
+        <p className="font-light text-left leading-relaxed">
           22 Year Old, Front End Developer based in the Philippines.<br />
           Need a website developed or fixed? I can help you.
         </p>
