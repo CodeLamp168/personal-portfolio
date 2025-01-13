@@ -6,7 +6,7 @@ import NavArea from '@/components/NavArea'
 import { ThemeProvider } from '@/components/ThemeProvider'
 
 const roboto = Roboto({
-  weight: ['400', '500'],
+  weight: ['400', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
   display: 'swap',
