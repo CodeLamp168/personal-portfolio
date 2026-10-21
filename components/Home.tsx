@@ -75,8 +75,7 @@ export default function Home() {
         transition={{ duration: 0.5, delay: 0.5 }}
       >
         <p className="font-light text-left leading-relaxed">
-          22 Year Old, Front End Developer based in the Philippines.<br />
-          Need a website developed or fixed? I can help you.
+          I do it for the money.
         </p>
       </motion.div>
     </div>
